@@ -1,0 +1,70 @@
+:root {
+  --gray-500: rgba(102, 112, 133, 1);
+}
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  height: 0px; /* height of horizontal scrollbar ← You're missing this */
+  width: 0px; /* width of vertical scrollbar */
+  border: 1px solid #d5d5d5;
+}
+::-webkit-scrollbar-track {
+  border-radius: 80px;
+  background: #b32525;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 80px;
+  background: #b0b0b0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.signup-component .signup {
+  display: flex;
+  height: 70px;
+  align-items: center;
+}
+.signup-component .signup img {
+  margin: 0px auto;
+  margin-left: 10vw;
+  align-items: center;
+}
+.signup-component .signup .inner {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.signup-component .signup .inner span {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 14px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+}
+.signup-component .signup button {
+  border-radius: 2px;
+  border: 1px solid #2d699d;
+  color: #2d699d;
+  font-size: 12px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+}
